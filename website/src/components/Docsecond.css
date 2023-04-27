@@ -1,0 +1,22 @@
+.doctor{
+    display: grid;
+    margin-left: 10vw;
+    width: 90vw;  
+    height: 100vh;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 175px;
+    line-height: 25px;
+  
+
+    
+}
+
+.bg{
+    background-image: url("../Images/Appointment-transformed.jpeg");
+   background-repeat: no-repeat;
+   border: 2px solid magenta; 
+   background-color: rgb(253, 253, 253);
+
+}

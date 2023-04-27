@@ -1,0 +1,282 @@
+.appoint { 
+    
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 90vw; 
+    /* border: 2px solid rgb(20, 19, 20);  */
+    font-size: 20px; 
+   /* background-image: url("../Images/Appointment.jpeg");
+   background-repeat: no-repeat;
+   background-color: white;
+   border: 10px solid magenta; */
+    
+    
+} 
+.backimg{
+    height: 100vh;
+    width: 90vw;
+    margin-left: 10vw;
+    background-image: url("../Images/appointment2.jpeg");
+   background-repeat: no-repeat;
+   background-color: white;
+   /* border: 10px solid magenta; */
+}
+.area{
+    height: 25px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+   
+.doc {
+    display: flex; 
+    justify-content: right; 
+    align-items: right; 
+    margin: 25px 10px; 
+    font-weight: bold;
+}
+.dat { 
+    display: flex; 
+    justify-content: right; 
+    align-items: right; 
+    margin: 25px 10px; 
+    font-weight: bold;
+
+} 
+.dur { 
+    display: flex; 
+    justify-content: right; 
+    align-items: right; 
+    margin: 25px 10px; 
+    font-weight: bold;
+
+} 
+.not { 
+    width: 100%; 
+    margin: 25px -10px; 
+    display: flex; 
+    justify-content: right; 
+    align-items: right; 
+    font-weight: bold;
+
+} 
+.appbutton1, 
+.appbutton2, 
+.appbutton3 { 
+    display: inline-block; 
+    justify-content: center; 
+    align-items: center; 
+    appearance: none; 
+    background-color: #219aeb; 
+    background-size: calc(100% + 20px) calc(100% + 20px); 
+    border-radius: 1.5px; 
+    border-width: 0; 
+    box-shadow: none; 
+    box-sizing: border-box; 
+    color: #f8f7f7ec; 
+    cursor: pointer; 
+    font-family: CircularStd, sans-serif; 
+    font-size: 2rem; 
+    height: 35px; 
+    width: 250px; 
+    justify-content: center; 
+    line-height: 0.9; 
+    margin: 0 5px; 
+    padding: 10px 200px; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color .2s, background-position .2s; 
+    user-select: none; 
+    -webkit-user-select: none; 
+    touch-action: manipulation; 
+    vertical-align: top; 
+    white-space: nowrap; 
+} 
+.appbutton1 { 
+    position: relative; 
+    background-color: #4299cf; 
+    text-decoration: navy; 
+    text-transform: uppercase; 
+    font-size: 1em; 
+    letter-spacing: 0.09em; 
+    font-weight: 400; 
+    padding: 10px 30px; 
+    transition: 0.5s; 
+} 
+.appbutton1:hover { 
+    letter-spacing: 0.25em; 
+    background-color: #1e9bff; 
+    /* box-shadow: 00 35px #1e9bff; */ 
+    /* color: #020303; */ 
+} 
+.appbutton1::before { 
+    content: ''; 
+    position: absolute; 
+    inset: 2px; 
+    background-color: #2870dc; 
+} 
+.appbutton1 span { 
+    position: relative; 
+    z-index: 1; 
+} 
+.appbutton1 i { 
+    position: absolute; 
+    inset: 0; 
+    display: block; 
+} 
+.appbutton1 i::before { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 80%; 
+    width: 13px; 
+    height: 4px; 
+    background-color: #354a93; 
+    transform: translatex (-50%) skewx (325de); 
+    transform: 0.5s; 
+} 
+.appbutton1 :hover i::before { 
+    width: 20px; 
+    left: 20%; 
+} 
+.appbutton1 i::after { 
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 20%; 
+    width: 13px; 
+    height: 4px; 
+    background-color: #27232c; 
+    transform: translatex (-50%) skewx (325deg); 
+    transform: 0.5s; 
+} 
+/* l,sadldlsdd,lsd,lsd,ldsddlld,, */ 
+.appbutton2 { 
+    position: relative; 
+    background-color: #4299cf; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 1em; 
+    letter-spacing: 0.08em; 
+    font-weight: 400; 
+    padding: 10px 30px; 
+    transition: 0.5s; 
+    
+     
+} 
+.appbutton2:hover { 
+    letter-spacing: 0.25em; 
+    background-color: #1e9bff; 
+    /* box-shadow: 00 35px #1e9bff; */ 
+    /* color: #020303; */ 
+} 
+.appbutton2::before { 
+    content: ''; 
+    position: absolute; 
+    inset: 2px; 
+    background-color: #2870dc; 
+} 
+.appbutton2 span { 
+    position: relative; 
+    z-index: 1; 
+} 
+.appbutton2 i { 
+    position: absolute; 
+    inset: 0; 
+    display: block; 
+} 
+.appbutton2 i::before { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 20%; 
+    width: 13px; 
+    height: 4px; 
+    background-color: #354a93; 
+    transform: translatex (-50%) skewx (325de); 
+    transform: 0.5s; 
+} 
+.appbutton2 :hover i::before { 
+    width: 20px; 
+    left: 20%; 
+} 
+.appbutton2 i::after { 
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 20%; 
+    width: 13px; 
+    height: 4px; 
+    background-color: #27232c; 
+    transform: translatex (-50%) skewx (325deg); 
+    transform: 0.5s; 
+     
+} 
+/* nfjdsjfsdkfkasdpfsadlpfasdkkfadsfkasfas */ 
+.appbutton3 { 
+    position: relative; 
+    background-color: #4299cf; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 1em; 
+    letter-spacing: 0.09em; 
+    font-weight: 400; 
+    padding: 10px 50px; 
+    transition: 0.5s; 
+} 
+.appbutton3:hover { 
+    letter-spacing: 0.25em; 
+    background-color: #1e9bff; 
+    /* box-shadow: 00 35px #1e9bff; */ 
+    /* color: #020303; */ 
+} 
+.appbutton3::before { 
+    content: ''; 
+    position: absolute; 
+    inset: 2px; 
+    background-color: #2870dc; 
+} 
+.appbutton3 span { 
+    position: relative; 
+    z-index: 1; 
+} 
+.appbutton3 i { 
+    position: absolute; 
+    inset: 0; 
+    display: block; 
+} 
+.appbutton3 i::before { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 80%; 
+    width: 13px; 
+    height: 4px; 
+    background-color: #354a93; 
+    transform: translatex (-50%) skewx (325de); 
+    transform: 0.5s; 
+} 
+.appbutton3 :hover i::before { 
+    width: 20px; 
+    left: 20%; 
+} 
+.appbutton3 i::after { 
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 20%; 
+    width: 13px; 
+    height: 4px; 
+    background-color: #8664af; 
+    transform: translatex (-50%) skewx (325deg); 
+    transform: 0.5s; 
+}
+.buttonap{
+    /* border: 2px solid magenta; */
+width:auto;
+}

@@ -1,0 +1,71 @@
+.doct{
+    display: grid;
+    margin-left: 10vw;
+    /* margin-top: -100vh; */
+    width: 90vw;  
+    min-height: 100vh;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 175px;
+    line-height: 25px;
+    background-color: aqua;
+    /* border: 2px solid magenta; */
+}
+.display{
+    /* border: 3px solid magenta; */
+    /* margin-top: -75vh; */
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.data{
+   
+    width: 750px;
+    height: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.Header{
+    text-align: center;
+    margin-right: 250px;
+    margin-top: -80px;
+}
+
+.docfirst-body {
+    background-image: url('../Images/Patient\ Log.jpeg');
+    background-size: cover;
+    margin-left: -615px;
+    margin-top: -50vh;
+}
+.image-list {
+    overflow: auto;
+    width: 500px;
+    height: 550px;
+    border: 2px solid rgb(137, 137, 137);
+  }
+  .centerbutton{
+    background-color:  #334e9f;
+    /* background-image: linear-gradient(-180deg, #009ffd, #2a2a72); */
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 210px;
+    margin-top: 10px;
+  }
+  .centerbutton:hover {
+    box-shadow: rgba(38, 36, 35, 0.5) 0 3px 8px;
+  }
+  .address{
+    width: 500px;
+    border: 3px solid black;
+    height: 35px;
+    align-items: center;
+  }
+  

@@ -1,0 +1,74 @@
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(7px);
+   
+   
+  }
+  button[type="submitN"] {
+    background-color: #062580;
+    border: none;
+    color: rgb(245, 248, 248);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 220px ;
+    /* display: grid;
+    align-content: center;
+    justify-content: center; */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: transform 0.2s ease-in-out; /* Add a transition for transform */
+    width: 300px;
+    position: fixed;
+  }
+  
+  button[type="submitN"]:hover {
+    background-color: #07daf6be;
+    color: black;
+    
+    transform: scale(1.1); /* Make the button 10% bigger on hover */
+  }
+  button[type="OK"]{
+    /* border: 2px solid magenta; */
+    background-color: #062580;
+    border: none;
+    color: rgb(245, 248, 248);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 90px ;
+    /* display: grid;
+    align-content: center;
+    justify-content: center; */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: transform 0.2s ease-in-out; /* Add a transition for transform */
+    width: 300px;
+     position:fixed;
+  }
+  button[type="OK"]:hover {
+    background-color: #07daf6be;
+    color: black;
+    transform: scale(1.1); /* Make the button 10% bigger on hover */
+  }
+  .Title{
+    text-align: center;
+    text-decoration:solid;
+    margin-top: 50px;
+    
+  }
+  body{
+    background-image: url("../Images/Home.gif");
+   width: 100vw;
+   min-height: 100vh;
+   position: fixed;
+  }
+ 

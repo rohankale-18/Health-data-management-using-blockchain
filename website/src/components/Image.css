@@ -1,0 +1,60 @@
+/* Styles for the image container */
+.image {
+  background-image: url("../Images/Image.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  min-height: 100vh;
+  text-decoration-color: azure;
+ 
+}
+
+/* Styles for the upload button */
+.upload {
+  display: inline-block;
+  margin-left: 15%;
+}
+
+.imagebutton {
+  align-items: center;
+  appearance: none;
+  background-color: #219aeb;
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 1px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: 30px;
+  width: 150px;
+  justify-content: center;
+  line-height: 1;
+  margin: 0 100px;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.imagebutton:active,
+.imagebutton:focus {
+  outline: none;
+}
+
+.imagebutton:hover {
+  background-position: -20px -20px;
+}
+
+.imagebutton:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}

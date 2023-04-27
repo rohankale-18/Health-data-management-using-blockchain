@@ -1,0 +1,52 @@
+.credit{
+    background-image: url("../Images/payment3.jpg");
+   background-repeat:no-repeat;
+   background-size: cover;
+    height: 100vh;
+    width: 90vw;
+    margin-left: 10vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border: 2px solid magenta
+    ;
+}
+.p-4{
+    /* border: 3px solid magenta; */
+    margin-top: -500px;
+}
+.my-3{
+    /* border: 3px solid magenta; */
+    height: 60px;
+    width: 350px;
+}
+.input{
+    width: 300px;
+    height: 45px;
+    margin-left: -30px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.outer{
+    margin-top: -350px;
+}
+.btn{
+    background-color:#334e9f;
+    /* background-image: linear-gradient(-180deg, #009ffd, #2a2a72); */
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    width: auto;
+    margin-left: 85px;
+    margin-top: 20px;
+  }
+  .btn:hover {
+    box-shadow: rgba(38, 36, 35, 0.5) 0 3px 8px;
+   
+  }
